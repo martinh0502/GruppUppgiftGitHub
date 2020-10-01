@@ -17,6 +17,13 @@ namespace GruppUppgiftGitHub
             InitializeComponent();
 
             //hej
+            int i = 99;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Skapat en knapp
+            button1.Text = "HEJ";
         }
     }
 }
