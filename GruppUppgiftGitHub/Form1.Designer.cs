@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.textBoxTest = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +41,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Albins commit";
             // 
+            // textBoxTest
+            // 
+            this.textBoxTest.Location = new System.Drawing.Point(144, 90);
+            this.textBoxTest.Name = "textBoxTest";
+            this.textBoxTest.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTest.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxTest);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +65,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBoxTest;
     }
 }
 
