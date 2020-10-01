@@ -15,6 +15,8 @@ namespace GruppUppgiftGitHub
         public Form1()
         {
             InitializeComponent();
+
+            //hej
         }
     }
 }
