@@ -18,6 +18,7 @@ namespace GruppUppgiftGitHub
 
             //hej
             int i = 99;
+            int x = 100;
         }
 
         private void button1_Click(object sender, EventArgs e)
