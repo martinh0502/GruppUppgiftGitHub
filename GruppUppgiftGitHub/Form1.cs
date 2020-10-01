@@ -18,5 +18,10 @@ namespace GruppUppgiftGitHub
 
             //hej
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Skapat en knapp
+        }
     }
 }
